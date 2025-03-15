@@ -1,0 +1,29 @@
+
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: rgba(40, 117, 117, 0.33);
+}
+.header{
+  position: sticky;
+  top:0;
+  background-color: rgb(9, 36, 59);
+  color:rgb(232, 198, 198);
+  padding:10px;
+  font-size: medium;
+}
+.header:hover{
+  position: sticky;
+  top:0;
+  background-color: rgb(9, 36, 59);
+  color:rgb(232, 198, 198);
+  padding:5px;
+}
+
+img{
+  width:200px;
+  height:200px;
+  margin:auto;
+  padding:20px 20px 20px;
+  box-shadow: 10px 10px 10px 10px  rgb(37, 0, 32);
+  border-radius: 360px;
+  }
