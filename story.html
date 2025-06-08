@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    body.dark{
+      background-color: black;
+color:white;
+    }
+  </style>
+  <h1>The basement</h1>
+  <p id="story">The Boy And The Filberts The Night Came Slowly One Summer Night The Coming of the King A Blunder Ex Oblivione Fat And Thin Hearts And Hands Amy's Question My Financial Career The Aged Mother Hermann The Irascible The Man in the Brown Coat The Death Of A Government Clerk The Father The Little Match Girl Louisa May Alcott: A Child's Biography The Terrible Old Man A Vine on a House The Open Window Witches' Loaves The Cats of Ulthar Mark Twain: A Child's Biography The Romance of a Busy Broker A Dead Woman's Secret A Chameleon A Respectable Woman On The Day of the Crucifixion The Dreamer Henry David Thoreau: A Child's Biography The Student The Unkindest Blow The Night Moth With a Crooked Feeler Alexandre The Thorny Road of Honor The Vendetta The Looking Glass</p>
+  <button onclick="
+  goDark()
+  ">Get in mood</button>
+  <div id="textentery">
+    type your name if you are dear:
+    <input type="text" id="name">
+  </div>
+  <button onclick="typeandScreem()">Please dont click me</button>
+  <button onclick="finishthestory()">Tell me what happend</button>
+<script>
+  function goDark(){
+    document.body.className = "dark"
+  }
+  function typeandScreem(){
+    var personName = document.getElementById('name').value
+    alert('I told you not do that ' + personName)
+  }
+  function finishthestory(){
+    document.getElementById('story').innerHTML = "So I carefull search the damp.There you are"
+  }
+</script>
+</body>
+</html>

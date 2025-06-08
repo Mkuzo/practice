@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    h1{
+text-align: center;
+    }
+    .rectangle{
+      border:2px solid #FFCCCC;
+      width:200px;
+      height: 300px;
+      margin:auto;
+      background: linear-gradient(35deg,#FFCCCC,rgb(204, 204, 255));
+    }
+    .button{
+      padding:20px;
+      width:200px;
+      margin:auto;
+      font-size:medium;
+    }
+  </style>
+  <h1>Make changes to rectangle</h1>
+  <div class="rectangle"></div>
+  <div class="button">
+    <button onclick="changeCircle()">Make circle</button>
+    <button onclick="changeSquare()">Make square</button>
+    <button onclick="hide()">Hide</button>
+    <button onclick="show()">Show</button>
+  </div>
+  
+<script>
+let div = document.querySelector('.rectangle')
+function changeCircle(){
+  div.style.borderRadius = '50%'
+}
+function hide(){
+  div.style.display = 'none'
+}
+function show(){
+  div.style.display = 'block'
+}
+function changeSquare(){
+  div.style.height = '100px'
+ div.style.width = '100px'
+}
+</script>
+</body>
+</html>

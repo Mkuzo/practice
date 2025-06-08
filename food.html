@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    body{
+      background:linear-gradient(90deg,#CCCF,#FCCC);
+      color:rgb(18, 140, 157);
+    }
+    header{
+      background-color: lightgreen;
+      padding:20px;
+      text-align: center;
+    }
+    .pizza-now{
+      display:flex;
+      justify-content: space-around;
+      margin: 3px;
+      flex-wrap:wrap;
+    }    
+   .pizza-card{
+      background-color: rgb(8, 96, 96);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgb(52, 7, 7);
+      width:300px;
+      margin: 20px;
+      text-align: center;
+      padding:15px
+
+    }
+    .pizza-card img{
+      width:100%;
+border-radius: 10px;
+object-fit: cover;
+    }
+    .pizza-card h2{
+margin:10px;
+font-size: 20px;
+    }
+    .pizza-card p{
+      font-size:14px;
+      margin-top:5px;
+    }
+    footer{
+      background-color: rgb(56, 56, 137);
+      text-align: center;
+      padding:10px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Delicious Pizza</h1>
+    <p>Order your pizza now!</p>
+  </header>
+  <section class="pizza-now">
+    <div class="pizza-card">
+      <img src="OIP (1).webp" alt="Pepperoni pizza">
+      <h1>Pepperoni pizza</h1>
+      <p>Classic Pepperoni with tomato sauce</p>
+    </div>
+    <div class="pizza-card">
+      <img src="OIP (2).webp" alt="Veggie pizza">
+      <h2>Veggie Pizza</h2>
+      <p>Fresh vegetables,olivese and cheese for health   bite</p>
+    </div>
+    <div class="pizza-card">
+      <img src="OIP.webp" alt="Chicken Pizza">
+      <h2>Chicken pizza sauce with chicken and red onion</h2>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 pizza shop.All right reserved</p>
+  </footer>
+
+</body>
+</html>

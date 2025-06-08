@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing</title>
+</head>
+<body>
+  <style>
+    body{
+      text-align:center;
+    }
+    nav{
+      background:#FFCCCC;
+      padding:10px;
+    }
+    ul{
+      list-style-type:none;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+    }
+    li{
+      float:left;
+    }
+   li a{
+    display:block;
+   }
+    li a:hover{
+background: #FFCCFF;
+    }
+  </style>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="6-index.html">About</a></li>
+      <li><a href="6-contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <h2>Interesting Information</h2>
+  <img src="https://th.bing.com/th/id/OIP.Yh6XtXiNCKWRXCOCyATitQHaDt?w=336&h=174&c=7&r=0&o=5&cb=iwc1&dpr=2.2&pid=1.7" alt="">
+</br>
+  <button onclick="tiger();">Read more</button>
+  <p id="cheetah-info"></p>
+  <img src="https://th.bing.com/th/id/OIP.Gfgn_Ba3KzQ41EqJJY6tRQHaEK?w=306&h=180&c=7&r=0&o=5&cb=iwc1&dpr=2.2&pid=1.7" alt=""/>
+  <br/>
+  <button onclick="bird()">Read more</button>
+  <p id="bird-info"></p>
+  <script>
+    function tiger(){
+      document.getElementById("cheetah-info").innerHtml=
+      "The cheetah is the fastest animal in land it only found in tanzania"
+    }
+    function bird(){
+      document.getElementById("bird-info").innerHtml = 
+      "Is the smallest bird in the world and it need necta for two hours to suivivecdcd"
+    }
+  </script>
+</body>
+</html>
